@@ -6,7 +6,7 @@
 
 {% block body %}
 <div class="content">
-    <h1>Template</h1>
+    <h1>Tam's Tasks</h1>
     <table>
         <tr>
             <th>Task</th>
@@ -20,7 +20,7 @@
             <td>
                 <a href="/delete/{{task.id}}">Delete</a>
                 <br>
-                <a href="">Update</a>
+                <a href="/update/{{task.id}}">Update</a>
             </td>
         </tr>
         {% endfor %}
